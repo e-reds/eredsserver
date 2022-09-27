@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "configuracions",
+  "info": {
+    "singularName": "configuracion",
+    "pluralName": "configuracions",
+    "displayName": "Configuracion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "esport_name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "video_back": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

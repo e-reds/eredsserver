@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generos",
+  "info": {
+    "singularName": "genero",
+    "pluralName": "generos",
+    "displayName": "generos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "genero": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
