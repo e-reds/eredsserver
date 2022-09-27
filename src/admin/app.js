@@ -1,4 +1,14 @@
+
+import AuthLogo from './extensions/ereds-logo.png';
+import favicon from './extensions/favicon.ico';
 const config = {
+auth: {
+      logo: AuthLogo,
+	favicon: favicon,
+    },
+ head: {
+      favicon: favicon,
+    },
   locales: ['es'],
   translations: {
     es: {
@@ -16,7 +26,6 @@ const config = {
     },
   },
 };
-
 
 const bootstrap = (app) => {
   console.log(app);
