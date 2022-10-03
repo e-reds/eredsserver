@@ -15,12 +15,11 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
     connection: {
-      host: env('DATABASE_HOST', 'ec2-52-0-142-65.compute-1.amazonaws.com'),
-      port: env.int('DATABASE_PORT', 5432),
-      database: env('DATABASE_NAME', 'd7ro1l3sr98s3t'),
-      user: env('DATABASE_USERNAME', 'bmwocamarfwwoi'),
-      password: env('DATABASE_PASSWORD', '9d2413a2aff272dc057317053c6f8ce2ad31b7e0c1271dddf6023eebc2d345db'),
-      ssl: env.bool('DATABASE_SSL', true),
+      host: env('DATABASE_HOST', 'elauncher-do-user-12185590-0.b.db.ondigitalocean.com'),
+      port: env.int('DATABASE_PORT', 25060),
+      database: env('DATABASE_NAME', 'defaultdb'),
+      user: env('DATABASE_USERNAME', 'doadmin'),
+      password: env('DATABASE_PASSWORD', 'AVNS_cyXXgHs8DHv7KsZDNtN'),
     },
   },
 });
